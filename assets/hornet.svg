@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" fill="#ff00ff" />
+  <g transform="translate(64,64)" stroke="#221" stroke-width="2" fill="none">
+    <!-- wings -->
+    <ellipse rx="40" ry="18" cx="-12" cy="-18" fill="rgba(200,230,255,0.9)" stroke="none" transform="rotate(-25)" />
+    <ellipse rx="40" ry="18" cx="12" cy="-18" fill="rgba(200,230,255,0.9)" stroke="none" transform="rotate(25)" />
+  </g>
+  <g transform="translate(64,64)">
+    <!-- body -->
+    <ellipse rx="24" ry="18" cx="0" cy="4" fill="#c89b3a" stroke="#333" stroke-width="2" />
+    <ellipse rx="18" ry="12" cx="0" cy="-6" fill="#ffd36b" stroke="#333" stroke-width="1" />
+    <!-- stripes -->
+    <rect x="-20" y="-6" width="40" height="6" fill="#1b1b1b" transform="rotate(-6)" />
+    <rect x="-16" y="4" width="32" height="6" fill="#1b1b1b" transform="rotate(-6)" />
+    <!-- head -->
+    <circle cx="-20" cy="-10" r="6" fill="#1b1b1b" />
+  </g>
+</svg>
